@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1  onclick="getElementById('close-menu').checked = false">
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#grid-two">Recent Jobs</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Building the Future Through Programming</h2>
+                <p>highlights the immense role that coding plays in shaping the modern world. From creating innovative
+                    technologies to solving complex problems, programming has become a critical skill for designing the
+                    future.
+                    It allows us to automate tasks, build smart applications, and enhance industries such as healthcare,
+                    finance, and education</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optimized.svg"
+                    alt="um desenho de um homem segurando a logo do css3, um desenho de uma mulher empurando a logo do JavaScript e o desenho de um homem segurando a logo do HTML 5">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+
+        <div class="main-content top3-content">
+            <h2>Career Paths </h2>
+
+            <p>Software engineers are responsible for developing and maintaining systems and applications that shape the
+                digital future. They create innovative solutions for a wide range of sectors, from mobile applications
+                to cybersecurity systems.</p>
+
+            <p>Artificial Intelligence specialists are at the forefront of technology, developing algorithms and systems
+                that learn and adapt. They apply machine learning and deep learning techniques to create solutions
+                ranging from virtual assistants to autonomous cars.</p>
+
+            <p>Cloud engineers design, implement, and manage cloud solutions, enabling companies to store data and run
+                applications in scalable and secure environments. With digital transformation and cloud migration
+                growing rapidly, these professionals are essential to ensuring infrastructures are resilient, flexible,
+                and capable of supporting future demands.</p>
+
+        </div>
+
+    </section>
+
+    <section id="top3" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Top 3 jobs</h2>
+            <p class="grid-description">It's the 3 jobs</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Software Engineer</h3>
+                    <p>Software engineers design, develop, and maintain applications and systems that are essential for
+                        the functioning of businesses and services. They use various programming languages and
+                        frameworks to create solutions that meet user needs.</p>
+                </article>
+
+                <article>
+                    <h3>Data Scientist</h3>
+                    <p>Data scientists analyze large volumes of data to extract insights that can help companies make
+                        informed decisions. They apply statistical techniques, machine learning, and data visualization
+                        to transform raw data into valuable information.</p>
+                </article>
+
+                <article>
+                    <h3>Cloud Engineer</h3>
+                    <p>Cloud engineers are responsible for designing, implementing, and managing cloud solutions. They
+                        ensure that companies can store and process data securely and at scale while optimizing resource
+                        usage in the cloud.</p>
+                </article>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">A little bit about us</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="assets/img/360x360.png" alt="Homem de camisa laranja programando">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/360x360.png" alt="Homem de camisa laranja programando">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/360x360.png" alt="Homem de camisa laranja programando">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/360x360.png" alt="Homem de camisa laranja programando">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/360x360.png" alt="Homem de camisa laranja programando">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/360x360.png" alt="Homem de camisa laranja programando">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section id="grid-two" class="grid-one main-bg section">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Recent Jobs</h2>
+            <p class="grid-description">Some jobs</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Full Stack Developer</h3>
+                    <p>Full Stack Developers are proficient in both front-end and back-end technologies. They build user
+                        interfaces while also managing databases and server-side logic, making them versatile members of
+                        the development team. Their ability to work across the entire technology stack enables them to
+                        deliver seamless web applications.</p>
+                </article>
+
+                <article>
+                    <h3>Machine Learning Engineer</h3>
+                    <p>Machine Learning Engineers focus on designing and implementing machine learning algorithms. They
+                        collaborate with data scientists to create models that predict outcomes and automate
+                        decision-making processes. Their expertise in programming and data analysis is crucial for
+                        developing intelligent applications that learn from data.</p>
+                </article>
+
+                <article>
+                    <h3>DevOps Engineer</h3>
+                    <p>DevOps Engineers bridge the gap between development and operations, enhancing collaboration and
+                        productivity. They implement automation tools for continuous integration and continuous delivery
+                        (CI/CD), ensuring software is released efficiently. Their role is essential in maintaining
+                        system reliability and scalability.</p>
+                </article>
+            </div>
+
+
+    </section>
+
+
+    <section id="pricing" class="white-bg section">
+
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+
+            <p>Software engineers are responsible for developing and maintaining systems and applications that shape the
+                digital future. They create innovative solutions for a wide range of sectors, from mobile applications
+                to cybersecurity systems.</p>
+
+            <p>Artificial Intelligence specialists are at the forefront of technology, developing algorithms and systems
+                that learn and adapt. They apply machine learning and deep learning techniques to create solutions
+                ranging from virtual assistants to autonomous cars.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Basic Plan</th>
+                            <th>Standard Plan</th>
+                            <th>Pro Plan</th>
+                            <th>Enterprise Plan</th>
+                            <th>Ultimate Plan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>$19/month</td>
+                            <td>$39/month</td>
+                            <td>$59/month</td>
+                            <td>$99/month</td>
+                            <td>$149/month</td>
+                        </tr>
+                        <tr>
+                            <td>Access to basic tutorials</td>
+                            <td>Access to all tutorials</td>
+                            <td>1-on-1 mentorship</td>
+                            <td>Group workshops</td>
+                            <td>Personalized learning plan</td>
+                        </tr>
+                        <tr>
+                            <td>Email support</td>
+                            <td>Priority support</td>
+                            <td>Community access</td>
+                            <td>Custom solutions</td>
+                            <td>Lifetime access</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Join Us Today!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section">
+
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contact and Support</h2>
+                <p>Please feel free to contact us for further information and assistance. </p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/mobile.svg"
+                    alt="Um desenho de uma mulher com um celular maior que ela enviando algo">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact Us</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class=" footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://www.youtube.com/watch?v=bCFTv8a59PE&list=PLbIBj8vQhvm00J3f3rD33tRuNLem8EgEA&index=2">Developed
+                by Pedro Moreira Tristão and Otávio Miranda</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
